@@ -150,10 +150,12 @@
     <ClCompile Include="LeetCode.cpp" />
     <ClCompile Include="Solution.cpp" />
     <ClCompile Include="Solution3Sum.cpp" />
+    <ClCompile Include="SolutionCircularArrayLoop.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution.h" />
     <ClInclude Include="Solution3Sum.h" />
+    <ClInclude Include="SolutionCircularArrayLoop.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

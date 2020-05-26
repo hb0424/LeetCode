@@ -24,12 +24,18 @@
     <ClCompile Include="Solution3Sum.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="SolutionCircularArrayLoop.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Solution3Sum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SolutionCircularArrayLoop.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

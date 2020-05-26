@@ -3,16 +3,21 @@
 #include <vector>
 #include <iostream>
 #include "Solution3Sum.h"
+#include "SolutionCircularArrayLoop.h"
 
 int main()
 {
     std::cout << "Hello World!\n";
 
+    std::vector<int> arrCircularArrayLoop = { -2, -3, -9 };
+    SolutionCircularArrayLoop cCircularArrayLoop;
+    cCircularArrayLoop.CircularArrayLoop(arrCircularArrayLoop);
+
     Solution3Sum c3Sum;
-    std::vector<int> arr = {-1, 0, 1, 2, -1, -4};
-    auto arrResult = c3Sum.ThreeSum(arr);
-    arr = { 0, 0, 0 };
-    arrResult = c3Sum.ThreeSum(arr);
+    std::vector<int> arr3Sum = {-1, 0, 1, 2, -1, -4};
+    auto arrResult = c3Sum.ThreeSum(arr3Sum);
+    arr3Sum = { 0, 0, 0 };
+    arrResult = c3Sum.ThreeSum(arr3Sum);
 }
 
 
